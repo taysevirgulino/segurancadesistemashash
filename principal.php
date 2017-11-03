@@ -139,7 +139,7 @@ session_start();
 					<center><h3>Gerar Hash 2</h3></center>
 					<div id="page-wrapper">
 						<center><input type="file" accept='text/plain' name="Arquivo2" id="fileInput2"><br /><br /></center>
-						<input class="btn btn-lg btn-primary btn-block" onclick="gerarHash2()" value="gerarHash" />
+						<input class="btn btn-lg btn-primary btn-block" onclick="gerarHash2()" value="Gerar Hash" />
 						<center><pre id="fileDisplayArea2"></pre></center>
 					</div>
 				</div>
