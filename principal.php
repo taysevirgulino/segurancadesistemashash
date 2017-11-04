@@ -96,7 +96,7 @@ session_start();
 		}
 
 		function compararHash() {
-			if(hash == hash2){
+			if(fileDisplayArea.innerText == fileDisplayArea2.innerText){
 				fileDisplayArea3.innerText = "Os arquivos possuem hashs iguais ! Conteúdos idênticos !";
 				console.log("Os arquivos possuem hashs iguais ! Conteúdos idênticos !");
 			}
